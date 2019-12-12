@@ -19,7 +19,8 @@ public class Exercise1Impl implements Exercise1
 
         @Override
         public String PrintPostion(int i, int i1) {
-            return null;
+            String str = "Cell is on Position X:"+i+ " Y:" + i1;
+            return str;
         }
     }
     @Override
